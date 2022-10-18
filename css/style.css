@@ -76,6 +76,7 @@ body{
     height: 550px;
     margin: 1px auto;
     padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .choose{
@@ -84,6 +85,38 @@ body{
 
 ul{
     list-style-type: none;
-    content: '\2193';
 }
 
+.first::before{
+    content: '\25BC';
+    padding: 5px;
+}
+
+.first{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    
+}
+
+
+.second::before{
+    content: '\2713';
+    color: green;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 100%;
+}
+
+.second{
+    margin-bottom: 20%;
+}
+
+.third::before{
+    content: '\2717';
+    color: red;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 100%;
+
+}
