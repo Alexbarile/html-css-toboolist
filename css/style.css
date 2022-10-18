@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: antiquewhite;
+}
+
+.titolo{
+    height: 100px;
+    background-color: white;
+}
+
+.logo-header{
+    height: 70px;
+    margin: 15px 20px;
+    float: left;
+}
+
+.logo-read{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 25px;
+}
