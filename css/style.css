@@ -84,5 +84,6 @@ body{
 
 ul{
     list-style-type: none;
+    content: '\2193';
 }
 
