@@ -51,7 +51,6 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 100px;
-    
 }
 
 .section{
@@ -73,18 +72,24 @@ body{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 70%;
-    height: 550px;
+    height: 630px;
     margin: 1px auto;
-    padding: 5%;
+    padding: 3%;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.choose{
-    margin-left: 50px;
 }
 
 ul{
     list-style-type: none;
+}
+
+.sezione{
+    margin-bottom: 20px;
+}
+
+.first{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
 }
 
 .first::before{
@@ -92,31 +97,74 @@ ul{
     padding: 5px;
 }
 
-.first{
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 60px;
-    
-}
-
-
-.second::before{
+.positive::before{
     content: '\2713';
     color: green;
     padding: 5px;
     border: 1px solid green;
     border-radius: 100%;
+    line-height: 45px;
 }
 
-.second{
-    margin-bottom: 20%;
-}
-
-.third::before{
+.negative::before{
     content: '\2717';
     color: red;
     padding: 5px;
     border: 1px solid red;
     border-radius: 100%;
+    line-height: 45px;
+}
 
+.editorial{
+    background-color: rgb(166, 184, 209);
+    padding: 15px;
+    line-height: 5px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.Q1-goals{
+    background-color: blueviolet;
+    padding: 15px;
+    line-height: 5px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.recruiting{
+    background-color: lightgreen;
+    padding: 15px;
+    line-height: 5px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.mobile{
+    background-color: orange;
+    padding: 15px;
+    line-height: 5px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.website{
+    background-color: palevioletred;
+    padding: 15px;
+    line-height: 5px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.sales{
+    background-color: rgb(197, 197, 17);
+    padding: 15px;
+    line-height: 5px;
+    border-radius: 15px;
+    border: none;
+    color: white;
 }
